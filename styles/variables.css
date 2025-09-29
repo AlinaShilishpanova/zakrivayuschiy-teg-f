@@ -4,7 +4,7 @@
   --accent-font: 'Press Start 2P', fantasy;
   --text-main-font-weight: 410;
   --title-main-font-weight: 715;
-  --complex-grid-gradient: 
+  --complex-grid-gradient:
     repeating-linear-gradient(to right, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
     repeating-linear-gradient(to bottom, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
     linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
@@ -19,7 +19,7 @@
   --label-stroke-color: #fff;
   --label-text-color: #000;
   --accent-color: #000;
-  --text-color: #fff; 
+  --text-color: #fff;
   --outline-color: #000;
   --animation-fill-color: #000;
   --contour-color: #f00;
