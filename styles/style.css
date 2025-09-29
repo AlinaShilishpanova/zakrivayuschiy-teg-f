@@ -121,8 +121,15 @@
 }
 
 .card__icon-button {
-  border: none;
-  background-color: inherit;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 39px;
 }
 
 .card__like-button {
@@ -132,6 +139,9 @@
   font-family: var(--accent-font);
   font-weight: 400;
   font-size: 14px;
+  min-width: 130px;
+  position: relative;
+  overflow: hidden;
 }
 
 /* Фильтры */
@@ -222,18 +232,6 @@
 }
 
 /* Эффекты для кнопки, оборачивающей иконку сердца */
-.card__icon-button {
-  border: 2px solid transparent;
-  transition: border-color 0.3s ease;
-  cursor: pointer;
-  background: transparent;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 39px;
-}
-
 .card__icon-button:focus-visible {
   outline: none;
   border-color: var(--accent-color);
@@ -241,12 +239,6 @@
 
 .card__icon-button:focus {
   outline: none;
-}
-
-.card__like-button {
-  min-width: 130px;
-  position: relative;
-  overflow: hidden;
 }
 
 /* Эффекты для кнопки сохранения */
