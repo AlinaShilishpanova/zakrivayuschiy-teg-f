@@ -69,8 +69,7 @@
   border: 2px solid #000;
   border-left: none;
   border-right: none;
-  width: 696px;
-  height: 696px;
+  width: 100%;
   aspect-ratio: 1 / 1;
 }
 
@@ -416,11 +415,6 @@
 
   .card__title {
     margin: 4px 11px;
-  }
-
-  .card__image-container {
-    width: 371px;
-    height: 371px;
   }
 
   .save__button-container {
